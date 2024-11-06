@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My simple Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 2.6;
+            background: url('4.jpg');
+            color: #333;
+        }
+        header {
+            background: #007acc;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        nav {
+            text-align: left; /* Aligns navigation buttons to the left */
+            padding: 10px;
+            background: #005f99;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold; /* Makes the text bold */
+            transition: background 0.3s, transform 0.3s;
+        }
+        nav a:hover {
+            background: #004466;
+            transform: scale(1.05);
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: url('mine.avif') no-repeat center center/cover;
+            color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #fff;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+            border: 3px solid #fff;
+        }
+        .project {
+            margin-bottom: 15px;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            border-left: 5px solid #007acc;
+            transition: background 0.3s;
+        }
+        .project:hover {
+            background: rgba(0, 0, 0, 0.6);
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #007acc;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #fff;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #ffd700; /* Gold color for hover effect */
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1> My Portfolio </h1>
+    <p>Data Scientist | Machine Learning Enthusiast | Entreprenuer </p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact Me</a>
+</nav>
+
+<section id="about">
+    <img src="prof2.jpeg" alt="Amon Walusimbi" class="profile-pic">
+    <h2>About Me</h2>
+    <p>Welcome to my portfolio!<br> My name is Amon Walusimbi .C. a data scientist with knowledge in statistical analysis, machine learning, and data visualization. My passion lies in uncovering insights from data to drive decision-making.</p>
+    <p>I am as well an Entreprenuer and Founder of AW International a global</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Python & R Programming</li>
+        <li>Machine Learning (Rstudio, Python)</li>
+        <li>Data Visualization (Matplotlib, Seaborn)</li>
+        <li>Statistical Analysis using python </li>
+        <li>Data Cleaning & Preprocessing</li>
+    </ul>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <ul>
+        <li><strong>Bachelor's in Data Science and Analytics</strong>, University Name (2024)</li>
+        <li><strong>Uganda Advanced Certificate of Education</strong>, Seeta High School (2023)</li>
+        <li><strong>Uganda Certificate of Education</strong>, Uganda Martyrs S.S Namugongo (2020)</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Interests</h2>
+    <div class="project">
+        <h3>Hobbies </h3>
+        <p>As a hardworker it is always important to set aside time to develop other aspects of your as it is says work without play makes Jack a dull boy. </aside><a href="n2.html" target="_blank">View Project</a></p>
+    </div>
+    <div class="project">
+        <h3>Project 1</h3>
+        <p>I am a participant of the Data Analytics project under the CSE Data Anlytics Chapter.  <a href="https://github.com/Amon52/Walusimbi-Amon">View project</a>
+    </div>
+    <div class="project">
+        <h3>Project 2</h3>
+        <p>AW is an investment company that is occupying the earth through business<a href="http://127.0.0.1:5500/n2.html#company-goals"> Go to Company Goals</a>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to connect, feel free to reach out via email at <a href="mailto:amonkim52@gmail.com">amonkim52@gmail.com</a>.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Amon Walusimbi. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

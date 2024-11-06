@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies and Company Goals</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            background: #23acde; /* Lighter background for contrast */
+            color: #2c3e50; /* Darker text for better readability */
+        }
+        h1, h2 {
+            color: #2c3e50; /* Darker shade for headings */
+        }
+        .hobbies, .goals, .achievements, .feedback {
+            margin-bottom: 20px;
+            padding: 15px;
+            background:#326bc7; /* White background for sections */
+            border: 1px solid #dfe6e9; /* Subtle border for definition */
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin: 10px 0 5px;
+            color: #fff; /* Consistent label color */
+        }
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #bdc3c7; /* Softer border color */
+            border-radius: 4px;
+            transition: border-color 0.3s;
+        }
+        input:focus, textarea:focus {
+            border-color: #3498db; /* Highlight on focus */
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #3498db; /* Brighter button color */
+            color: #fff; /* White text for better contrast */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #2980b9; /* Darker button on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Hobbies</h1>
+    
+    <div class="hobbies">
+        <h2>1. Gaming</h2>
+        <video width="320" height="240" controls>
+            <source src="Snapchat-69401815.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+    <div class="hobbies">
+        <h2>2. Outdoor Activities</h2>
+        <div style="display: flex; align-items: center;">
+            <h3>In the thought loop</h3>
+            <img src="Snapchat-11446173.jpg" alt="Left Outdoor Activity" width="360" height="640" style="margin-right: 20px;">
+            <h3>Strumming a guitar</h3>
+            <img src="Snapchat-1155690073.jpg" alt="Outdoor Activities" width="360" height="640">
+        </div>
+    </div>
+    
+    
+    <div class="hobbies">
+        <h2>3. Music</h2>
+        <video width="320" height="240" controls>
+            <source src="Snapchat-993941814.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+    <h1 id="company-goals">Company Goals</h1>
+
+<div class="goals">
+    <h2>Vision</h2>
+    <p>Our vision is to see the whole world transformed by our excellence.</p>
+    
+    <h2>Mission</h2>
+    <p>To do all things in truth.</p>
+</div>
+
+<h1>Achievements</h1>
+
+<div class="achievements">
+    <ul>
+        <li>Founded on a foundation of greatness.</li>
+        <li>Recognized as the fastest growing company in excellence.</li>
+        <li>Committed to producing the highest quality in all our ventures.</li>
+    </ul>
+</div>
+
+
+
+
+    <h1>Feedback</h1>
+    
+    <div class="feedback">
+        <form action="your_form_processing_script.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Feedback</button>
+        </form>
+    </div>
+
+</body>
+</html>
